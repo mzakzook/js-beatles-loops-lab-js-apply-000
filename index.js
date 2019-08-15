@@ -20,10 +20,11 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   var loveBeatles = []
+  var saveNumber = number;
   do {
   loveBeatles.push('I love the Beatles!');
   number++;
   }
-  while (number < 15 && loveBeatles.length <= (15 - number));
+  while (number < 15 && loveBeatles.length < (15 - saveNumber));
   return loveBeatles
 }
