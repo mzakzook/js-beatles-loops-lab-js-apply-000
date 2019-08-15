@@ -1,7 +1,7 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
   var pair = [];
-  var index
+  var index;
   for (index = 0; index < musicians.length; index++) { 
     pair.push(`${musicians[index]} plays ${instruments[index]}`); 
   } 
