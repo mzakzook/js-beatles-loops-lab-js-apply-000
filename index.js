@@ -1,7 +1,6 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments) {
   var pair = [];
-  var index = 0;
   for (index = 0; index < musicians.length; index++) { 
     pair.push(`${musicians[index]} plays ${instruments[index]}`); 
   } 
@@ -9,13 +8,13 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  var bigFacts = []
-  var index = 0
+  var bigFacts = [];
+  var index = 0;
   while (index < facts.length) {
-    bigFacts.push(`${facts[index]}!!!`)
-    index++
+    bigFacts.push(`${facts[index]}!!!`);
+    index++;
   }
-  return bigFacts
+  return bigFacts;
 }
 
 function iLoveTheBeatles(number) {
